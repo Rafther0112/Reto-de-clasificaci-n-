@@ -1,5 +1,9 @@
 # Reto de clasificación
-Repositorio para el algoritmo de Machine Learning para clasificación de 5 tipos diferentes de arroz.
+
+Para solucionar el reto propuesto de clasificación de 5 tipos diferentes de arroz se hizo uso de las caracteristicas de color y de forma que presentan cada una de las imagenes de la base de datos. Para extraer estas caracteristicas se hizo uso de descriptores de color mediante descriptores concatenados de intensidad y de descriptores de forma mediante el histograma de gradientes orientados HOG. Los descriptores de color se encargan de extraer los valores de intensidad que tiene cada pixel y representa este conjunto de valores mediante el uso de histogramas. 
+
+
+Adicionalmente, para la clasificación y predicción de estos datos se empleó un clasificador basado en Supporting Vector Machines. 
 
 Para el correcto funcionamiento de la solución planteada se desarrollaron funciones adicionales las cuales se encuentran en el archivo Model.py, donde cada una de estas cumple un rol especifico. Adicionalmente, se adjuntaron 2 archivos .json adicionales, los cuales contienen:
 
