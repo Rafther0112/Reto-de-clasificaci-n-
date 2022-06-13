@@ -18,9 +18,11 @@ Para el funcionamiento del modelo es necesario contar con las siguientes librer�
 	•	Skimage		pip install scikit-image
 
 Por otro lado, para correr el código presente en el archivo eval.py se recomienda hacer uso de la terminal. Este código cumple con dos funciones, uno para la visualización de las métricas de clasificación obtenidas sobre el conjunto de testeo y otra para realizar la predicción de una imagen de interés. Para el funcionamiento de cada una se hacen las siguientes sugerencias: 
+
 	•	Métricas generales:  Hacer uso del comando python eval.py y seguir las indicaciones que van apareciendo cuando se hace la ejecución. 
 	•	Evaluación individual:  Hacer uso del comando python eval.py --image “nombre”
 						      En este caso, el nombre que se ingresa es el de la imagen de interés sobre el conjunto de testeo del modelo. Este nombre debe ser fiel a cómo se encuentra guardado e ir entre comillas, por ejemplo, “Karacadag (10864).jpg”.
+						      
 
 Finalmente, es fundamental que la base de datos se encuentre a la misma altura del archivo eval.py y de Model.py para que funcione adecuadamente la importación de las imagenes. 
 
