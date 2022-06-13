@@ -2,8 +2,9 @@
 
 Para solucionar el reto propuesto de clasificación de 5 tipos diferentes de arroz se hizo uso de las caracteristicas de color y de forma que presentan cada una de las imagenes de la base de datos. Para extraer estas caracteristicas se hizo uso de descriptores de color mediante descriptores concatenados de intensidad y de descriptores de forma mediante el histograma de gradientes orientados HOG. Los descriptores de color se encargan de extraer los valores de intensidad que tiene cada pixel y representa este conjunto de valores mediante el uso de histogramas. 
 
-
-https://github.com/Rafther0112/Reto-de-clasificaci-n-/blob/main/Forma.png
+<p align="center">
+  <img src="Forma.png" />
+</p>
 
 Adicionalmente, para la clasificación y predicción de estos datos se empleó un clasificador basado en Supporting Vector Machines. 
 
