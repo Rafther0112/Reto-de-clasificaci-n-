@@ -4,6 +4,7 @@ Para solucionar el reto propuesto de clasificación de 5 tipos diferentes de arr
 
 ![Forma](https://user-images.githubusercontent.com/86379638/173284544-206c9a5b-f83c-458f-b36d-33a0f356b352.png)
 
+
 Adicionalmente, para la clasificación y predicción de estos datos se empleó un clasificador basado en Supporting Vector Machines. 
 
 Para el correcto funcionamiento de la solución planteada se desarrollaron funciones adicionales las cuales se encuentran en el archivo Model.py, donde cada una de estas cumple un rol especifico. Adicionalmente, se adjuntaron 2 archivos .json adicionales, los cuales contienen:
