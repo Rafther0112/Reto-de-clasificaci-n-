@@ -6,7 +6,7 @@ Para solucionar el reto propuesto de clasificación de 5 tipos diferentes de arr
   <img src="descriptores.jpeg" />
 </p>
 
-Adicionalmente, para la clasificación y predicción de estos datos se empleó un clasificador basado en Supporting Vector Machines. 
+Adicionalmente, para la clasificación y predicción de estos datos se empleó un clasificador basado en Supporting Vector Machines, el cual se encarga de construir un hiperplano que permite hacer una separación de los datos en clases para posteriormente realizar la predicción adecuada. Una caracteristica fundamental es que este tipo de clasificador es plenamente binaria, por lo cual se requiere de entrenar varios modelos para hacer una clasificación 1 vs 1 o 1 vs todos. 
 
 Para el correcto funcionamiento de la solución planteada se desarrollaron funciones adicionales las cuales se encuentran en el archivo Model.py, donde cada una de estas cumple un rol especifico. Adicionalmente, se adjuntaron 2 archivos .json adicionales, los cuales contienen:
 
