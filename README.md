@@ -19,7 +19,5 @@ Por otro lado, para correr el código presente en el archivo eval.py se recomien
 
 Finalmente, es fundamental que la base de datos se encuentre a la misma altura del archivo eval.py y de Model.py para que funcione adecuadamente la importación de las imagenes. 
 
-Realizado por: Rafael Enrique Velásquez Rojas
-Propósito: Educación / Inteligencia artificial
-Lenguaje: Python
+
 
